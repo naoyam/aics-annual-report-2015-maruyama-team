@@ -4,9 +4,11 @@
 
 If you have any questions or need any help on the following instructions, please contact Naoya Maruyama.
 
+In summary, here are the basic steps:
+
 1. Download or clone this repository.
 2. Make sure all the prerequisites are available on your environment.
-3. Try typesetting to verify typesetting.
+3. Try typesetting to verify the software setup.
 4. Write your report in main.tex.
 5. Submit the final PDF report.
 
