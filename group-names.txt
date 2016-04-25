@@ -1,0 +1,27 @@
+research/ishikawa System Software Research Team
+research/sato Programming Environment Research Team
+research/taiji Processor Research Team
+research/imamura Large-Scale Parallel Numerical Computing Technology Research Team
+research/maeda HPC Usability Research Team
+research/kuramashi Field Theory Research Team
+research/ito Discrete-Event Simulation Research Team
+research/nakajima Computational Molecular Science Research Team
+research/yunoki Computational Materials Science Research Team
+research/sugita Computational Biophysics Research Team
+research/makino Particle Simulator Research Team
+research/tomita Computational Climate Science Research Team
+research/tsubokura Complex Phenomena Unified Simulation Research Team
+research/maruyama HPC Programming Framework Research Team
+research/ono Advanced Visualization Research Team
+research/miyoshi Data Assimilation Research Team
+research/hirao Computational Chemistry Research Unit
+research/hori Computational Disaster Mitigation and Reduction Research Unit
+research/tama Computational Structural Biology Research Unit
+operations/tsukamoto Facility Operations and Development Team
+operations/uno System Operations and Development Team
+operations/minami Software Development Team
+operations/hirakawa HPCI System Development Team
+fs2020/ishikawa System Software Development Team
+fs2020/sato Architecture Development Team
+fs2020/tomita Application Development Team
+fs2020/makino Co-Design Team

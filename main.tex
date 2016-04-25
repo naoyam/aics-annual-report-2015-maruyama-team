@@ -1,0 +1,74 @@
+\documentclass[a4paper]{book}
+
+\setcounter{tocdepth}{0}
+\usepackage{graphicx}
+\usepackage[backend=biber,defernumbers=true]{biblatex}
+%\defbibheading{chapbib}{%
+%  \section{Publications}
+%  \markboth{Publications}{Publications}
+%}
+\usepackage{hyperref}
+% Chapter-local namespace for cross referencing
+\newcommand{\localref}[1]{\ref{{\thechapter}_#1}}
+\newcommand{\locallabel}[1]{\label{{\thechapter}_#1}}
+%\usepackage{layout}
+%\usepackage{showframe}
+\usepackage[a4paper,top=1in,bottom=1in,left=1.25in,right=1in, marginparwidth=0in]{geometry}
+
+\title{ACIS Annual Report FY2015}
+
+\begin{document}
+
+%\layout
+
+\date{}
+
+\maketitle
+\tableofcontents
+
+\input{preface/main}
+\addcontentsline{toc}{chapter}{Preface}
+\input{mission/main}
+\addcontentsline{toc}{chapter}{Mission and Overview}
+\input{organization/main}
+\addcontentsline{toc}{chapter}{Organization}
+
+\include{sample_division/sample_group/main}
+
+\part{Research Division}
+
+\include{research/ishikawa/main}
+\include{research/sato/main}
+\include{research/taiji/main}
+\include{research/imamura/main}
+\include{research/maeda/main}
+\include{research/kuramashi/main}
+\include{research/ito/main}
+\include{research/nakajima/main}
+\include{research/yunoki/main}
+\include{research/sugita/main}
+\include{research/makino/main}
+\include{research/tomita/main}
+\include{research/tsubokura/main}
+\include{research/maruyama/main}
+\include{research/ono/main}
+\include{research/miyoshi/main}
+\include{research/hirao/main}
+\include{research/hori/main}
+\include{research/tama/main}
+
+\part{Operations and Computer Technologies Division}
+
+\include{operations/tsukamoto/main}
+\include{operations/uno/main}
+\include{operations/minami/main}
+\include{operations/hirakawa/main}
+
+\part{Flagship 2020 Project}
+
+\include{fs2020/ishikawa/main}
+\include{fs2020/sato/main}
+\include{fs2020/tomita/main}
+\include{fs2020/makino/main}
+
+\end{document}
