@@ -8,38 +8,280 @@ The keywords indicates a category of an bib item. The "keywords" field in a bib 
 Note that the type of each bib item such as "inproceedings" does not affect the grouping. Use "misc" when uncertain.
 }
 
-@inproceedings{sample-conference,
-  author = "Riken Aics",
-  title = "Test Title",
-  booktitle = "Test booktitle",
-  year = "2014",
-  keywords = "proceedings"
+%%%%%%%%%%%%%%%%%%% Journal article
+
+@article{Jung01,
+  author="J. Jung and T. Mori and C. Kobayashi and Y. Matsunaga and T. Yoda and M. Feig and Y. Sugita",
+  title="GENESIS: A hybrid-parallel and multi-scale molecular dynamics simulator with enhanced sampling algorithms for biomolecular and cellular simulations",
+  journal="WIREs Comput. Mol. Sci.",
+  volume="5",
+  pages="310--323",
+  year="2015",
+  keywords = "journal",
 }
 
-@article{sample-journal,
-  author = "Ichiro Kobe",
-  title = "Test Title",
-  journal = "Test journal",
-  year = "2014",
-  keywords = "journal"
+@article{Kobayashi01,
+  author="C. Kobayashi and R. Koike and M. Ota and Y. Sugita",
+  title="Hierarchical domain-motion analysis of conformational changes in sarcoplasmic reticulum Ca2+-ATPase",
+  journal="Proteins",
+  volume="83",
+  pages="746--756",
+  year="2015",
+  keywords = "journal",
 }
 
-@misc{sample-invited,
-  author = "Jiro Kobe",
-  title = "Invited Talk Title",
-  howpublished = "Some Conference",
+@article{Kobayashi02,
+  author="C. Kobayashi and Y. Matsunaga and R. Koike and M. Ota, Y. Sugita",
+  title="Domain Motion Enhanced (DoME) Model for Efficient Conformational Sampling of Multidomain Proteins",
+  journal="J. Phys. Chem. B",
+  volume="119",
+  pages="14584--14593",
+  year="2015",
+  keywords = "journal",
+}
+
+@article{Matsunaga01,
+  author="Y. Matsunaga and A. Kidera and Y. Sugita",
+  title="Sequential data assimilation for single-molecule FRET photon-counting data",
+  journal="J. Chem. Phys.",
+  volume="142",
+  pages="214115",
+  year="2015",
+  keywords = "journal",
+}
+
+@article{Jung02,
+  author="J. Jung and C. Kobayashi and T. Imamura and Y. Sugita",
+  title="Parallel implementation of 3D FFT with volumetric decomposition schemes for efficient molecular dynamics simulations",
+  journal="Comput. Phys. Commun.",
+  volume="200",
+  pages="57--65",
+  year="2016",
+  keywords = "journal",
+}
+
+@article{Matsunaga02,
+  author="Y. Matsunaga and Y. Komuro and C. Kobayashi and J. Jung and T. Mori and Y. Sugita",
+  title="Dimensionality of Collective Variables for Describing Conformational Changes of a Multi-Domain Protein",
+  journal="J. Phys. Chem. Lett.",
+  volume="7",
+  pages="1446--1451",
+  year="2016",
+  keywords = "journal",
+}
+
+@article{Raimondas02,
+  author="R. Galvelis and Y. Sugita",
+  title="Replica State Exchange Metadynamics for Improving the Convergence of Free Energy Estimates",
+  journal="J. Comp. Chem.",
+  volume="36",
+  pages="1446--1455",
+  year="2015",
+  keywords = "journal",
+}
+
+%%%%%%%%%%%%%%%%%%% Cnference papers
+
+%%%%%%%%%%%%%%%%%%% Invited Talks
+
+@misc{invited-jung01,
+  author = "J. Jung",
+  title = "Development of GENESIS for Large scale MD simulations",
+  howpublished = "The 4th JLESC workshop",
   year = "2015",
   keywords = "invited",
 }
 
-@misc{sample-deliverable,
-  title = "Released Software Name",
+@misc{invited-jung02,
+  author = "J. Jung",
+  title = "Development of GENESIS for Multiscale Molecular Dynamics simulations",
+  howpublished = "1st Multiscale Computational Biology Workshop",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-jung03,
+  author = "J. Jung",
+  title = "Parallelization of Molecular Dynamics",
+  howpublished = "The 13th CMSI Lecture",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-jung04,
+  author = "J. Jung and Y. Sugita",
+  title = "Multiple time step integrator in molecular dynamics (MD) program GENESIS",
+  howpublished = "Kyoto Workshop",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-kobayashi01,
+  author = "C. Kobayashi and Y. Matsunaga and J. Jung and Y. Sugita",
+  title = "Development of multi-resolution simulation methods for reactions with large conformational changes in biological system",
+  howpublished = "The 53th Annual Meeting of Biophysical Society of Japan",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-kobayashi02,
+  author = "C. Kobayashi and Y. Matsunaga and J. Jung and Y. Sugita",
+  title = "Development of multi-resolution simulation methods for reactions with large conformational changes in biological system",
+  howpublished = "The 41th Workshop of Japan Bio-energy",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-kobayashi03,
+  author = "C. Kobayashi",
+  title = "Introduction to GENESIS",
+  howpublished = "Chem-Bio Informatics Society Annual Meeting",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-matsunaga01,
+  author = "Y. Matsunaga",
+  title = "Drug extrusion mechanism of multidrug exporter AcrB studied by the string method",
+  howpublished = "The 53th Annual Meeting of Biophysical Society of Japan",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita01,
+  author = "Y. Sugita",
+  title = "Development and parallelization of MD software GENESIS",
+  howpublished = "Lecture at Hong Kong University of Science and Technology",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita02,
+  author = "Y. Sugita",
+  title = "Large-scale all-atom MD simulations of biomolecules under cellular environments",
+  howpublished = "Seminar at Hong Kong University of Science and Technology",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita03,
+  author = "Y. Sugita",
+  title = "Molecular Simulations of Membrane Transporting Proteins",
+  howpublished = "RIKEN Symposium on Metal in Biology",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita04,
+  author = "Y. Sugita",
+  title = "Free-energy calculations using a new MD simulator",
+  howpublished = "Snowmass Free-Energy Conference",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita05,
+  author = "Y. Sugita",
+  title = "Parallel MD simulations for enhanced conformational sampling of biological systems",
+  howpublished = "Mini symposium on Rare Events in Complex Physical Systems at the 8th International Congress on Industrial and Applied Mathematics, Beijing",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita06,
+  author = "I. Yu and T. Mori and J. Jung and T. Ando and R. Harada and M. Feig and Y. Sugita",
+  title = "Dynamics, Stability, and Interactions of Proteins and Metabolites in Bacterial Cytoplasm: All-atom Molecular Dynamics Study",
+  howpublished = "The 53th Annual Meeting of Biophysical Society of Japan",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita07,
+  author = "Y. Sugita",
+  title = "Free-energy calculations of conformational changes in membrane proteins by multi-resolution methods",
+  howpublished = "The 25th Hot Spring Harbor International Symposium",
+  year = "2015",
+  keywords = "invited",
+}
+
+@misc{invited-sugita08,
+  author = "Y. Sugita",
+  title = "Recent development of replica-exchange molecular dynamics simulation methods",
+  howpublished = "The 251st ACS national meeting and exposition on From Dynamics to Function and Back Again: Adventures in Simulating Biomolecules",
+  year = "2015",
+  keywords = "invited",
+}
+
+%%%%%%%%%%%%%%%%%%% Posters and presentations
+
+@misc{poster-jung01,
+  author = "J. Jung and A. Naruse and C. Kobayashi and Y. Sugita",
+  title = "Efficient strong scale parallelization of molecular dynamics on hybrid CPU/GPUs for large scale simulations",
+  howpublished = "The 29th Annual Meeting of Molecular Simulation Society of Japan",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{poster-jung02,
+  author = "J. Jung and T. Ando and Y. Matsunaga and Y. Sugita",
+  title = "Development of multiple timestep integrator in isothermal and isobaric conditions for efficient MD simulations of biological systems",
+  howpublished = "The 53th Annual Meeting of Biophysical Society of Japan",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{poster-jung03,
+  author = "J. Jung and Y. Sugita",
+  title = "Parallel implementation of molecular dynamics by combining multiple program/multiple data with multiple time step integrator",
+  howpublished = "The 6th AICS International Symposium",
+  year = "2016",
+  keywords = "poster",
+}
+
+@misc{poster-kamiya01,
+  author = "M. Kamiya and K. Kumon and P.-H. Wang and S. Hayashi and Y. Sugita",
+  title = "Molecular crowding effect on GTP hydrolysis reaction in Ras-GAP complex",
+  howpublished = "SCLS Symposium 2015",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{poster-kamiya02,
+  author = "M. Kamiya and K. Kumon and P.-H. Wang and S. Hayashi and Y. Sugita",
+  title = "Molecular crowding effect on GTP hydrolysis reaction in Ras-GAP complex",
+  howpublished = "The 29th Annual Meeting of Molecular Simulation Society of Japan",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{poster-kamiya03,
+  author = "M. Kamiya and K. Kumon and P.-H. Wang and S. Hayashi and Y. Sugita",
+  title = "Molecular crowding effect on GTP hydrolysis reaction in Ras-GAP complex",
+  howpublished = "The 6th AICS International Symposium",
+  year = "2016",
+  keywords = "poster",
+}
+
+@misc{poster-kobayashi01,
+  author = "C. Kobayashi and Y. Matsunaga and J. Jung and Y. Sugita",
+  title = "Development of multi-resolution simulation methods or model of reaction with large conformational changes in biological system",
+  howpublished = "The 6th AICS International Symposium",
+  year = "2016",
+  keywords = "poster",
+}
+
+@misc{poster-matsunaga01,
+  author = "Y. Matsunaga and Y. Sugita",
+  title = "Sequential data assimilation for single-molecule FRET photon-counting data",
+  howpublished = "The 6th AICS International Symposium",
+  year = "2016",
+  keywords = "poster",
+}
+
+%%%%%%%%%%%%%%%%%%% Patents and deliverables
+
+@misc{deliverable-genesis,
+  title = "GENESIS http://www.riken.jp/TMS2012/cbp/en/research/software/genesis/index.html",
   keywords = "deliverable",
 }
 
-@misc{sample-poster,
-  author = "Jiro Kobe and Ichiro Kobe",
-  title = "Poster Title",
-  year = "2014",
-  keywords = "poster",
-}
