@@ -41,19 +41,32 @@ We develop high performance, highly productive software stacks that aim to simpl
 % Takizawa & Matsuda
 \subsubsection{Improve locality when running MPI programs as MapReduce tasks}
 
+Although MapReduce systems can allocate tasks to nodes where their inputs reside to increase data locality for improving performance, these systems only target on tasks implemented as serial programs and do not consider running tasks implemented as parallel programs using MPI as Map or Reduce task.
+As many scientific applications are implemented using MPI and some application workflows form ensemble execution patterns of such MPI programs, the workflows can be implemented easily and efficient data access can be achieved if a MapReduce system can allocate tasks implemented using MPI so that it can exploit data locality in them.
+
+We proposed an extension of the execution model of MapReduce to achieve high performance when running MPI programs as Map/Reduce tasks.
+We model data to be processed as Key-Value as the traditional MapReduce model.
+However, to processing the data, we propose a new \verb|map| function which makes process groups where each process in a group has a key-value whose key is same as those of other processes in the group and applies a user-defined mapper, which is implemented using MPI, to the key-values using processes in each group.
+
 \begin{figure}
 \centering
   \includegraphics[width=0.5\textwidth,keepaspectratio,natwidth=193,natheight=40]
   {research/maruyama/lo01.png}
-  \caption{Caption for a sample figure}
+%  \caption{Caption for a sample figure}
   \locallabel{fig:kmr-01}
 \end{figure}
+
+To evaluate our proposal, we used $N \times N$ nodes of the K computer and compared performance of our method in which data access was performed locally and that of random data access.
+We used a synthetic benchmark program where each node has an individual data and which iterates the following two computation; the first computation groups $N$ nodes in low direction and processes data on them, and the second groups $N$ nodes in column direction and processes data on them.
+The result is shown in the figure.
+The horizontal axis is the amount of data on each node and the virtical axis is the relative performance of an iteration against random data access.
+As can be seen from the figure, the performance of our proposal improve as the number of nodes and the amount of data increase.
 
 \begin{figure}
 \centering
   \includegraphics[width=0.5\textwidth,keepaspectratio,natwidth=193,natheight=40]
   {research/maruyama/lo02.png}
-  \caption{Caption for a sample figure}
+%  \caption{Calculation pattern of the benchmark program}
   \locallabel{fig:kmr-02}
 \end{figure}
 
@@ -61,7 +74,7 @@ We develop high performance, highly productive software stacks that aim to simpl
 \centering
   \includegraphics[width=0.5\textwidth,keepaspectratio,natwidth=193,natheight=40]
   {research/maruyama/lo03.png}
-  \caption{Caption for a sample figure}
+%  \caption{Experimental results}
   \locallabel{fig:kmr-03}
 \end{figure}
 
