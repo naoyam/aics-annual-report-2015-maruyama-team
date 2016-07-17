@@ -8,50 +8,36 @@ The keywords indicates a category of an bib item. The "keywords" field in a bib 
 Note that the type of each bib item such as "inproceedings" does not affect the grouping. Use "misc" when uncertain.
 }
 
-@inproceedings{sample-conference,
-  author = "Riken Aics",
-  title = "Test Title",
-  booktitle = "Test booktitle",
-  year = "2014",
-  keywords = "proceedings"
+@article{Kumahata01022016,
+author = {Kumahata, Kiyoshi and Minami, Kazuo and Maruyama, Naoya},
+title = {High-performance conjugate gradient performance improvement on the K computer},
+volume = {30},
+number = {1},
+pages = {55-70},
+year = {2016},
+doi = {10.1177/1094342015607950},
+URL = {http://hpc.sagepub.com/content/30/1/55.abstract},
+journal = {International Journal of High Performance Computing Applications},
+keywords = "journal"
 }
 
-@article{sample-journal,
-  author = "Ichiro Kobe",
-  title = "Test Title",
-  journal = "Test journal",
-  year = "2014",
-  keywords = "journal"
-}
-
-@misc{sample-invited,
-  author = "Jiro Kobe",
-  title = "Invited Talk Title",
-  howpublished = "Some Conference",
-  year = "2015",
+@misc{MaruyamaPDSEC2015,
+  author = {Naoya Maruyama},
+  title = {Domain-Specific Approaches in Scientific Computing},
+  howpublished = {16th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC'15)},
+  address = {Hyderabad, India},
+  month = {May},
+  year = {2015},
+  note = {Keynote},
   keywords = "invited",
 }
 
-@misc{sample-deliverable,
-  title = "Released Software Name",
+@misc{kmr-1.8,
+  title = {KMR version 1.8.0},
+  month = {December},
+  year = 2015,
   keywords = "deliverable",
 }
-
-@misc{sample-poster,
-  author = "Jiro Kobe and Ichiro Kobe",
-  title = "Poster Title",
-  year = "2014",
-  keywords = "poster",
-}
-
-@Comment @inproceedings{takizawa_hpc151,
-@Comment author = {滝澤, 真一朗 and 松田, 元彦 and 丸山, 直也},
-@Comment booktitle = {情報処理学会第151回ハイパフォーマンスコンピューティング研究発表会},
-@Comment pages = {1--7},
-@Comment title = {局所性を考慮した大規模並列タスクのワークフロー実行に向けて},
-@Comment year = {2015},
-@Comment keywords = "proceedings",
-@Comment }
 
 @inproceedings{nishinaga_aics16,
 author = {Nishinaga, Toshifumi and Takizawa, Shinichiro and Matsuda, Motohiko and Maruyama, Naoya},
@@ -61,60 +47,6 @@ year = {2016},
 keywords = "poster",
 }
 
-@article{Parker2006,
- author = {Parker, Steven G.},
- title = {A {C}omponent-based {A}rchitecture for {P}arallel {M}ulti-physics {P}{D}{E} {S}imulation},
- journal = {Future Gener. Comput. Syst.},
- issue_date = {January, 2006},
- volume = {22},
- number = {1-2},
- month = jan,
- year = {2006},
- pages = {204--216},
- keywords = {journal}
-} 
-
-@article{Burstedde2011,
-author = {Carsten Burstedde and Lucas C. Wilcox and Omar Ghattas},
-title = {p4est: {S}calable {A}lgorithms for {P}arallel {A}daptive {M}esh {R}efinement on {F}orests of {O}ctrees},
-journal = {SIAM Journal on Scientific Computing},
-volume = {33},
-number = {3},
-pages = {1103-1133},
-year = {2011},
-keywords = {journal}
-}
-
-@inproceedings{Shimokawabe2011,
- author = {Shimokawabe, Takashi and Aoki, Takayuki and Takaki, Tomohiro and Endo, Toshio and Yamanaka, Akinori and Maruyama, Naoya and Nukada, Akira and Matsuoka, Satoshi},
- title = {Peta-scale {P}hase-field {S}imulation for {D}endritic {S}olidification on the {T}{S}{U}{B}{A}{M}{E} 2.0 {S}upercomputer},
- series = {SC '11},
- year = {2011},
- pages = {3:1--3:11},
- keywords = {proceedings}
-} 
-
-@article{Schive2012,
- author = {Schive, Hsi-Yu and Zhang, Ui-Han and Chiueh, Tzihong},
- title = {Directionally {U}nsplit {H}ydrodynamic {S}chemes with {H}ybrid {M}{P}{I}/{O}pen{M}{P}/{G}{P}{U} {P}arallelization in {A}{M}{R}},
- journal = {IJHPCA},
- issue_date = {November  2012},
- volume = {26},
- year = {2012},
- pages = {367--377},
- keywords = {journal}
-}
-
-@article{Saetra2015,
- author = {S{\ae}tra, Martin L. and Brodtkorb, Andr{\'e} R. and Lie, Knut-Andreas},
- title = {Efficient {G}{P}{U}-{I}mplementation of {A}daptive {M}esh {R}efinement for the {S}hallow-{W}ater {E}quations},
- journal = {J. Sci. Comput.},
- volume = {63},
- month = {4},
- year = {2015},
- pages = {23--48},
- keywords = {journal}
-} 
 
 @inproceedings{Wahib2015,
  author = {Wahib, Mohamed and Maruayama, Naoya},
@@ -125,3 +57,14 @@ keywords = {journal}
  pages = {3:1--3:7},
  keywords = {proceedings}
 }
+
+@inproceedings{WahibHPDC2015,
+  author = {Mohamed Wahib and Naoya Maruyama},
+  title = {Automated GPU Kernel Transformations in Large-Scale Production Stencil Applications},
+  booktitle = {Proceedings of the 24th International ACM Symposium on High-Performance Parallel and Distributed Computing (HPDC'15)},
+  pages = {259--270},
+  address = {Portland, OR},
+  month = {June},
+  year = {2015},
+  keywords = "proceedings",
+  }
