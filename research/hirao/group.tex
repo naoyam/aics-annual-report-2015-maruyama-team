@@ -8,6 +8,8 @@
   \item[] Kimihiko Hirao (Unit Leader)
   \item[] Jong-Won Song (Research Scientist)
   \item[] Yukio Kawashima (Research Scientist)
+  \item[] Sachiko Kikumoto (Assistant)
+  \item[] Yumeno Kusuhara (Assistant)
   \item[] Takao Tsuneda (Senior Visiting Scientist)
   \item[] Bun Chan (Visiting Researcher)
 \end{itemize}
@@ -26,7 +28,6 @@ Hybrid density functionals have become a main quantum chemical tool for the calc
 \begin{figure}[ht]
 \centering
   \includegraphics[width=0.9\textwidth,keepaspectratio,natwidth=193,natheight=40]
-% \includegraphics[width=13.0cm]
   {research/hirao/annual_hirao_2015_1.png}
   \caption{Functions of the HF exchange operator (left) and CPU time comparison of the new proposed method vs conventional methods (right). }
   \locallabel{fig:hirao-label1}
@@ -38,7 +39,6 @@ Hybrid density functionals have succeeded in increasing the accuracy of density 
 \begin{figure}[ht]
 \centering
   \includegraphics[width=0.7\textwidth,keepaspectratio,natwidth=193,natheight=40]
-% \includegraphics[width=10.0cm]
   {research/hirao/annual_hirao_2015_2.png}
   \caption{The numbers of calculated HF exchange integrals of HSE, Gau-PBE, and rev-Gau-PBE in C diamond.}
   \locallabel{fig:hirao-label2}
@@ -48,12 +48,11 @@ Hybrid density functionals have succeeded in increasing the accuracy of density 
 In the present study, we have investigated two significant features of the OP correlation functional, namely the incorporation of the exchange functional into itself, and the inclusion of only opposite-spin (OS) effects. To explore the latter feature, we have compared OP with B95 and a new functional introduced in the present study – the OPB method that combines OP with the same-spin (SS) component of B95. In general, we find that B95 and OPB perform comparably. Our comparisons of the various Density Functional Theory (DFT) procedures suggest that the incorporation of a meta-GGA (e.g., TPSS) into OP and OPB does not necessarily lead to a chemically more accurate procedure than the use of a related GGA (e.g., PBE). An important finding is the more notable (and somewhat more consistent) improvement in performance with the incorporation of SS correlation, particularly for longer-range chemical properties. Nonetheless, on average across our test sets of over 800 systems, the difference between the performances of OP versus B95 or OPB is not exceedingly large. By drawing a parallel between these DFT methods and the wavefunction scaled-MP2-type methods, we reason that one can further develop the OP functional, and perhaps a wider range of correlation functionals by combining it with the technique of range separation.
 
 \subsection{Probing Fullerene Formation by Supercomputers}
-Fullerenes are nano-sized carbon materials studied intensively due to its to its wide applicability such as a silver bullet for HIV, cosmetics, and superconductive devices. However, its precise value of ''heat of formation'', which is a fundamental property to understand how materials form and change, was not yet known. We have carried out large-scale computational quantum chemistry calculations on the K computer with NTChem software to obtain heats of formation for $C_{60}$ and some higher fullerenes with the DSD-PBE-PBE/cc-pVQZ double-hybrid density functional theory method. Our best estimated values are 2520.0 $\pm$ 20.7 ($C_{60}$), 2683.4 $\pm$ 17.7 ($C_{70}$), 2862.0 $\pm$ 18.5 ($C_{76}$), 2878.8 $\pm$ 13.3 ($C_{78}$), 2946.4 $\pm$ 14.5 ($C_{84}$), 3067.3 $\pm$ 15.4 ($C_{90}$), 3156.6 $\pm$ 16.2($C_{96}$), 3967.7 $\pm$ 33.4 ($C_{180}$), 4364 ($C_{240}$) and 5415 ($C_{320}$) kJ $mol^{−1}$ . Using the convergence behavior for the calculated per-atom heats of formation, we obtained the formula $\delta_{f}$H per carbon = 722n−0.72  + 5.2 kJ $mol^{−1}$  (n  = the number of carbon atoms), which enables an estimation of $\delta_{f}$H for higher fullerenes more generally. A slow convergence to the graphene limit is observed, which we attribute to the relatively small proportion of fullerene carbons that are in “ low-strain” regions. We further propose that it would take tens, if not hundreds, of thousands of carbons for a fullerene to roughly approach the limit. Such a distinction may be a contributing factor to the discrete properties between the two types of nanomaterials. During the course of our study, we also observe a fairly reliable means for the theoretical calculation of heats of formation for medium-sized fullerenes. This involves the use of isodesmic-type reactions with fullerenes of similar sizes to provide a good balance of the chemistry and to minimize the use of accompanying species.
-
+Fullerenes are nano-sized carbon materials studied intensively due to its to its wide applicability such as a silver bullet for HIV, cosmetics, and superconductive devices. However, its precise value of ''heat of formation'', which is a fundamental property to understand how materials form and change, was not yet known. We have carried out large-scale computational quantum chemistry calculations on the K computer with NTChem software to obtain heats of formation for C$_{60}$ and some higher fullerenes with the DSD-PBE-PBE/cc-pVQZ double-hybrid density functional theory method. Our best estimated values are 2520.0 $\pm$ 20.7 (C$_{60}$), 2683.4 $\pm$ 17.7 (C$_{70}$), 2862.0 $\pm$ 18.5 (C$_{76}$), 2878.8 $\pm$ 13.3 (C$_{78}$), 2946.4 $\pm$ 14.5 (C$_{84}$), 3067.3 $\pm$ 15.4 (C$_{90}$), 3156.6 $\pm$ 16.2 (C$_{96}$), 3967.7 $\pm$ 33.4 (C$_{180}$), 4364 (C$_{240}$) and 5415 (C$_{320}$) kJ/mol. Using the convergence behavior for the calculated per-atom heats of formation, we obtained the formula $\Delta_{f}H$ per carbon = 722n$^{{-}0.72}$  + 5.2 kJ/mol (n  = the number of carbon atoms), which enables an estimation of $\Delta_{f}H$ for higher fullerenes more generally. A slow convergence to the graphene limit is observed, which we attribute to the relatively small proportion of fullerene carbons that are in “ low-strain” regions. We further propose that it would take tens, if not hundreds, of thousands of carbons for a fullerene to roughly approach the limit. Such a distinction may be a contributing factor to the discrete properties between the two types of nanomaterials. During the course of our study, we also observe a fairly reliable means for the theoretical calculation of heats of formation for medium-sized fullerenes. This involves the use of isodesmic-type reactions with fullerenes of similar sizes to provide a good balance of the chemistry and to minimize the use of accompanying species.
+%
 \begin{figure}[ht]
 \centering
   \includegraphics[width=0.5\textwidth,keepaspectratio,natwidth=193,natheight=40]
-% \includegraphics[width=8.0cm]
   {research/hirao/annual_hirao_2015_3.png}
   \caption{Illustration of fullerene systems calculated on the K computer.}
   \locallabel{fig:hirao-label3}
