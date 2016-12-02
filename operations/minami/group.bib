@@ -8,38 +8,197 @@ The keywords indicates a category of an bib item. The "keywords" field in a bib 
 Note that the type of each bib item such as "inproceedings" does not affect the grouping. Use "misc" when uncertain.
 }
 
-@inproceedings{sample-conference,
-  author = "Riken Aics",
-  title = "Test Title",
-  booktitle = "Test booktitle",
-  year = "2014",
-  keywords = "proceedings"
-}
+%@inproceedings{sample-conference,
+%  author = "Riken Aics",
+%  title = "Test Title",
+%  booktitle = "Test booktitle",
+%  year = "2014",
+%  keywords = "proceedings"
+%}
 
-@article{sample-journal,
-  author = "Ichiro Kobe",
-  title = "Test Title",
-  journal = "Test journal",
-  year = "2014",
+%@article{sample-journal,
+%  author = "Ichiro Kobe",
+%  title = "Test Title",
+%  journal = "Test journal",
+%  year = "2014",
+%  keywords = "journal"
+%}
+
+%@misc{sample-invited,
+%  author = "Jiro Kobe",
+%  title = "Invited Talk Title",
+%  howpublished = "Some Conference",
+%  year = "2015",
+%  keywords = "invited",
+%}
+
+%@misc{sample-deliverable,
+%  title = "Released Software Name",
+%  keywords = "deliverable",
+%}
+
+%@misc{sample-poster,
+%  author = "Jiro Kobe and Ichiro Kobe",
+%  title = "Poster Title",
+%  year = "2014",
+%  keywords = "poster",
+%}
+
+
+% Kumahata
+% Journal
+% HPCG 
+@article{HPCG_IJHPCA,
+% author = "Kiyoshi Kumahata, Kazuo Minami, Naoya Maruyama",
+  author = "Kiyoshi Kumahata and Kazuo Minami and Naoya Maruyama",
+  title = "High-performance conjugate gradient performance improvement on the K computer",
+  journal = "International Journal of High Performance Computing Applications, Vol.30, Issue.1, pp.55-70, doi:10.1177/1094342015607950",
+  year = "2015",
   keywords = "journal"
 }
 
-@misc{sample-invited,
-  author = "Jiro Kobe",
-  title = "Invited Talk Title",
-  howpublished = "Some Conference",
+% Kumahata
+% Invited
+% HPCG BoF @ SC15
+@misc{HPCG_BOFSC15,
+% author = "Kiyoshi Kumahata, Kazuo Minami",
+  author = "Kiyoshi Kumahata and Kazuo Minami",
+  title = "HPCG Performance Improvement on the K computer",
+  howpublished = "HPCG BoF at The International Conference for High Performance Computing Networking Storage and Analysis 2015 (SC15) Austin",
   year = "2015",
   keywords = "invited",
 }
 
-@misc{sample-deliverable,
-  title = "Released Software Name",
-  keywords = "deliverable",
+% Kumahata
+% Poster
+% AICS Intnational Symposium.
+@misc{HPCG_AICSSYMP16,
+% author = "Kiyoshi Kumahata, Kazuo Minami",
+  author = "Kiyoshi Kumahata and Kazuo Minami",
+  title = "An evaluation and improvement for HPCG on the K computer", 
+  howpublished = "The 6th AICS International Symposium, Kobe, p.54",
+  year = "2015",
+  keywords = "poster",
 }
 
-@misc{sample-poster,
-  author = "Jiro Kobe and Ichiro Kobe",
-  title = "Poster Title",
-  year = "2014",
+
+% Kitazawa
+% Proceedings
+% MPI
+@inproceedings{MPI_HPC,
+  author = "Yoshito Kitazawa and Akiyoshi Kuroda and Kazuo Minami and Fumiyoshi Shoji",
+  title = "Evaluation of MPI Performance on the K computer (in Japanese)",
+  booktitle = "IPSJ SIG Technical Reports (HPC), 2016-HPC-153(34), pp.1-7",
+  year = "2016",
+  keywords = "proceedings"
+}
+
+% Kitazawa
+% Invited
+% HOKUSAI_FX100
+@misc{HOKUSAI_FX100,
+  author = "Yoshito Kitazawa",
+  title = "Confirmation of performance of HOKUSAI-GreatWave/FX100 using the check suite of the K computer (in Japanese)",
+  howpublished = "Riken Symposium 2015",
+  year = "2015",
+  keywords = "invited",
+}
+
+
+% Kuroda
+% Journal
+% POWER_ACS
+@article{POWER_ACS,
+  author = "Akiyoshi Kuroda and Yoshito Kitazawa and Toshiyuki Tsukamoto and Kentaro Koyama and Hikaru Inoue and Kazuo Minami",
+  title = "Analysis of the Correlation between Application Performance and Power Consumption on the K Computer (in Japanese)",
+  journal = "IPSJ Transactions on Advanced Computing System (ACS), Vol.8, No.4, pp.1-12",
+  year = "2015",
+  keywords = "journal"
+}
+
+% Kuroda
+% Poster
+% POWER_AXIES
+@misc{POWER_AXIES,
+  author = "Akiyoshi Kuroda and Yoshito Kitazawa and Kiyoshi Kumahata and Toshiyuki Tsukamoto and Kentaro Koyama and Hikaru Inoue and Kazuo Minami",
+  title = "Analysis Example of the Correlation between Application Performance and Power Consumption on the K computer (in Japanese)",
+  howpublished = "Academic eXchange for Information Environment and Strategy (AXIES2015), Nagoya",
+  year = "2015",
   keywords = "poster",
+}
+
+% Kuroda
+% Poster
+% POWER_AICS
+@misc{POWER_AICS,
+  author = "Akiyoshi Kuroda and Yoshito Kitazawa and Kiyoshi Kumahata and Toshiyuki Tsukamoto and Kentaro Koyama and Hikaru Inoue and Kazuo Minami",
+  title = "Analysis Example of the Correlation between Application Performance and Power Consumption on the K computer",
+  howpublished = "The 6th AICS International Symposium, Kobe, p.46",
+  year = "2015",
+  keywords = "poster",
+}
+
+% Minami
+% Proceedings
+% RA-003_FIT2015
+@inproceedings{RA-003_FIT2015,
+  author = "Kazuo Minami and Shunsuke Inoue and Syuichi Chiba and Mitsuo Yokokawa",
+  title = "Performance Estimation of Programs by an Extension of the RoofLine Model considering Cache Effects (in Japanese)",
+  booktitle = "The 14th Forum on Information Technology (FIT2015), No.1, pp.13-20",
+  year = "2015",
+  keywords = "proceedings"
+}
+
+% Minami
+% Invited
+% POWER_SC15
+@misc{POWER_SC15,
+  author = "Kazuo Minami",
+  title = "Power Consumption Reduction Effort for the K computer",
+  howpublished = "Exhibits at The International Conference for High Performance Computing Networking Storage and Analysis 2015 (SC15), Austin",
+  year = "2015",
+  keywords = "invited",
+}
+
+
+%Terai
+@article{RIETI,
+author = {Yoshi Fujiwara and Masaaki Terai and Yuji Fujita and Wataru Souma},
+title = {DebtRank Analysis of Financial Distress Propagation on Production Network in Japan},
+journal = {RIETI Discussion Paper Series},
+volume = {16-E-046}, 
+year = {2016},
+keywords = "journal"
+}
+
+@inproceedings{MAS2015,
+author = {Yuichi Hirokawa and Noriaki Nishikawa and Toshiyuki Asano and Masaaki Terai and Teruo Matsuzawa},
+title = {A Base Study of Massive Parallelization for Multi-Agent Systems},
+booktitle = {The 21th International Symposium on Artificial Life and Robotics (AROB)},
+year = {2015},
+keywords = "proceedings"
+}
+
+@inproceedings{MSR2015,
+author = {Masatomo Hashimoto and Masaaki Terai and Toshiyuki Maeda and Kazuo Minami},
+title = {Extracting Facts from Performance Tuning History of Scientific Application for Predicting Effective Optimization Patterns},
+booktitle = {The 12th Working Conference on Mining Software Repositories (MSR 2015)},
+pages = {13--23},
+year = {2015},
+keywords = "proceedings"
+}
+
+@inproceedings{IPSJ_HPC153_teraim,
+author = {Masaaki Terai and Yoshi Fujiwara and Kazuo Minami and Fumiyoshi Shoji},
+title = {Performance Analysis of the Graph Traversal Code using DebtRank Algorithm for Economic Simulation (in Japanese)},
+booktitle = {IPSJ SIG-HPC 153},
+pages = {1--12},
+year = {2016},
+keywords = "proceedings"
+}
+
+@misc{KSCOPE,
+title = {K-scope: Fortran source code analysis tool},
+howpublished = {http://www.aics.riken.jp/ungi/soft/kscope/},
+keywords = "deliverable",
 }
