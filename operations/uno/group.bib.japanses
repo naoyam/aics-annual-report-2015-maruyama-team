@@ -1,0 +1,39 @@
+@misc{sekizawa_hpc149,
+  author = "Ryuichi Sekizawa and Atsuya Uno and Keiji Yamamoto and Daisuke Wakabayashi and Fumiyoshi Shoji",
+  title = "ジョブスケジューリングにおけるスケジューリング空間の評価",
+  howpublished = "IPSJ-SIGHPC 2015-HPC-149",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{uno_hpc150,
+  author = "Atsuya Uno and Ryuichi Sekizawa and Keiji Yamamoto and Daisuke Wakabayashi and Fumiyoshi Shoji",
+  title = "「京」上のジョブの分析とジョブミックス生成手法の提案",
+  howpublished = "IPSJ-SIGHPC 2015-HPC-150",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{yamamoto_hpc151,
+  author = "Keiji Yamamoto and Fumichika Sueyasu and Atsuya Uno and Toshiyuki Tsukamoto and Hajime Hida and Naoki Ikeda and Fumiyoshi Shoji",
+  title = "過去の実行実績を利用したジョブの消費電力予測",
+  howpublished = "IPSJ-SIGHPC 2015-HPC-151",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{sekizawa_hpc152,
+  author = "Ryuichi Sekizawa and Atsuya Uno and Keiji Yamamoto and Daisuke Wakabayashi and Hajime Hida and Naoki Ikeda",
+  title = "ノード故障によるジョブスケジューリングへの影響評価",
+  howpublished = "IPSJ-SIGHPC 2015-HPC-152",
+  year = "2015",
+  keywords = "poster",
+}
+
+@misc{inoue_hpc153,
+  author = "Fumio Inoue and Atsuya Uno and Toshiyuki Tsukamoto and Fumichika Sueyasu and Naoki Ikeda and Hajime Hida and Fumiyoshi Shoji",
+  title = "電力を考慮した「京」の運用改善への取組み",
+  howpublished = "IPSJ-SIGHPC 2016-HPC-153",
+  year = "2016",
+  keywords = "poster",
+}

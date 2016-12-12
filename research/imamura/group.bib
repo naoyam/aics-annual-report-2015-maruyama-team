@@ -1,45 +1,249 @@
-@Comment{
-Each entry requires a single keyword in the "keywords" field.
-
-Available keywords: journal, proceedings, invited, poster, deliverable
-
-The keywords indicates a category of an bib item. The "keywords" field in a bib item can have a single keyword, or category, from the above five options. Do not set multiple keywords. The list of publications, talks, deliverables, and posters are grouped into the above five categories. Items with no matching keyword will not be displayed.
-
-Note that the type of each bib item such as "inproceedings" does not affect the grouping. Use "misc" when uncertain.
+﻿%[1]
+@article{JKIS-JCPC2016,
+	author = "Jaewoon Jung and Chigusa Kobayashi and Toshiyuki Imamura and Yuji Sugita",
+	title = "Parallel implementation of 3D FFT with volumetric decomposition schemes for efficient molecular dynamics simulations",
+	journal = "Computer Physics Communications",
+	volume = "200",
+	pages = "57-65",
+	year = "2016",
+	keywords = "journal"
 }
 
-@inproceedings{sample-conference,
-  author = "Riken Aics",
-  title = "Test Title",
-  booktitle = "Test booktitle",
-  year = "2014",
-  keywords = "proceedings"
+%[2]
+@article{OI-PFR2015,
+	author = "Yoshiharu Ohi and Soichiro Ikuno",
+	title = "Numerical Investigation of Electromagnetic Wave Propagation Phenomena by Three-Dimensional Meshless Time-Domain Method",
+	journal = "Plasma and Fusion Research",
+	volume = "10",
+	number = "3406072",
+	pages = "3406072-1,3406072-4",
+	year = "2015",
+	keywords = "journal"
 }
 
-@article{sample-journal,
-  author = "Ichiro Kobe",
-  title = "Test Title",
-  journal = "Test journal",
-  year = "2014",
-  keywords = "journal"
+
+%[4]
+@inproceedings{FI-PDSEC2015,
+	author = "Takeshi Fukaya and Toshiyuki Imamura",
+	title = "Performance Evaluation of the Eigen Exa Eigensolver on Oakleaf-FX: Tridiagonalization Versus Pentadiagonalization",
+	booktitle = "Proceedings of the Parallel and Distributed Processing Symposium Workshop (IEEE IPDPS, PDSEC 2015)",
+	pages = "960-969",
+	year = "2015",
+	keywords = "proceedings"
 }
 
-@misc{sample-invited,
-  author = "Jiro Kobe",
-  title = "Invited Talk Title",
-  howpublished = "Some Conference",
-  year = "2015",
-  keywords = "invited",
+@inproceedings{IFHYM-ParCo2015,
+	author = "Toshiyuki Imamura and Takeshi Fukaya and Yusuke Hirota and Susumu Yamada and Masahiko Machida",
+	title = "CAHTR: Communication-Avoiding Householder Tridiagonalization",
+	booktitle = "Proceedings of ParCo2015, Advances in Parallel Computing",
+	volume = "27: Parallel Computing: On the Road to Exascale",
+	pages = "381-390",
+	year = "2016",
+	keywords = "proceedings"
 }
 
-@misc{sample-deliverable,
-  title = "Released Software Name",
-  keywords = "deliverable",
+@inproceedings{KFTHFIS-PPAM2015,
+	author = "Yosuke Kumagai and Akihiro Fujii and Teruo Tanaka and Yusuke Hirota nd Takeshi Fukaya and Toshiyuki Imamura and Reiji Suda",
+	title = "Performance Analysis of the Chebyshev Basis Conjugate Gradient Method on the K Computer",
+	booktitle = "Proceedings of PPAM2015, Lecture Notes in Computer Science (LNCS)",
+	volume = "9573",
+	pages = "74-85",
+	year = "2016",
+	keywords = "proceedings"
 }
 
-@misc{sample-poster,
-  author = "Jiro Kobe and Ichiro Kobe",
-  title = "Poster Title",
-  year = "2014",
-  keywords = "poster",
+
+
+
+@inproceedings{MSII-MC+SNA+MC2015,
+	author = "Seikichi Matsuoka and Shinsuke Satake and Yasuhiro Idomura and Toshiyuki Imamura",
+	title = "Quality and Performance of a Pseudo-Random Number Generator in Massively Parallel Plasma Particle Simulations",
+	booktitle = "Proceedings of Mathematics and Computations, Supercomputing in Nuclear Applications and Mote Carlo International Conference (M\&C+SNA+MC2015)",
+	volume = "2",
+	pages = "923-935",
+	year = "2015",
+	keywords = "proceedings"
+}
+@inproceedings{MIT-PDP2015,
+	author = "Daichi Mukunoki and Toshiyuki Imamura and Daisuke Takahashi",
+	title = "Fast Implementation of General Matrix-Vector Multiplication (GEMV) on Kepler GPUs",
+	booktitle = "Proceedings of Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP 2015)",
+	pages = "642-650",
+	year = "2015",
+	keywords = "proceedings"
+}
+
+
+@inproceedings{MIT-HPC150,
+	author = "Daichi Mukunoki and Toshiyuki Imamura and Daisuke Takahashi",
+	title = "Proposal of a Reduced-length Floating Point Format",
+	booktitle = "IPSJ SIG Technical Reports HPC150, Vol. 2015-HPC-150 (in Japanese)",
+	year = "2015",
+	keywords = "proceedings"
+}
+
+@inproceedings{IMYM-HPC151,
+	author = "Toshiyuki Imamura and Daichi Mukunoki and Susumu Yamada and Masahiko Machida",
+	title = "Implementaion and Evaluation of SYMV$\cdot$GEMV kernels on multiple-GPU's",
+	booktitle = "IPSJ SIG Technical Reports HPC151, Vol. 2015-HPC-151 (in Japanese)",
+	year = "2015",
+	keywords = "proceedings"
+}
+
+@inproceedings{MI-HPC152,
+	author = "Daichi Mukunoki and Toshiyuki Imamura",
+	title = "Automatic selection of the number of threads for memory-bound BLAS kernels on an NVIDIA GPU",
+	booktitle = "IPSJ SIG Technical Reports HPC152, Vol. 2015-HPC-152 (in Japanese)",
+	year = "2015",
+	keywords = "proceedings"
+}
+
+@inproceedings{YIM-ParCo2015,
+	author = "Susumu Yamada and Toshiyuki Imamura and Machida Machida",
+	title = "High Performance Eigenvalue Solver in Exact-diagonalization Method for Hubbard Model on CUDA GPU",
+	booktitle = "Proceedings of ParCo2015, Advances in Parallel Computing",
+	volume = "27: Parallel Computing: On the Road to Exascale",
+	pages = "361-369",
+	year = "2016",
+	keywords = "proceedings"
+}
+
+@misc{MIT-ATAT2016,
+	author = "Daichi Mukunoki and Toshiyuki Imamura and Daisuke Takahashi",
+	title = "Automatic Thread-Block Size Adjustment for Dense Matrix-Vector Multiplication on CUDA",
+	howpublished = "Conference on Advanced Topics and Auto Tuning in High-Performance Scientific Computing (ATAT2016)",
+	year = "2016",
+	keywords = "invited"
+}
+
+@misc{I-ATAT2016,
+	author = "Toshiyuki Imamura",
+	title = "Present and Future of the EigenExa library",
+	howpublished = "Conference on Advanced Topics and Auto Tuning in High-Performance Scientific Computing (ATAT2016)",
+	year = "2016",
+	keywords = "invited"
+}
+ 
+
+@misc{EigenExa,
+	title = "EigenExa",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/EigenExa_e.html}},
+	keywords = "deliverable"
+}
+
+@misc{KMATH-EIGEN-GEV,
+	title = "KMATH\_{}EIGEN\_{}GEV",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/KMATH_EIGEN_GEV_e.html}},
+	keywords = "deliverable"
+}
+ 
+@misc{KMATH-RANDOM,
+	title = "KMATH\_{}RANDOM",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/KMATH_RANDOM_e.html}},
+	keywords = "deliverable"
+}
+
+@misc{KMATHLIB-API,
+	title = "KMATHLIB\_{}API",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/KMATHLIB_API.html}},
+	keywords = "deliverable"
+}
+
+@misc{ASPEN.K2,
+	title = "ASPEN.K2",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/ASPENK2_e.html}},
+	keywords = "deliverable"
+}
+
+@misc{MUBLAS-GEMV,
+	title = "MUBLAS-GEMV",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/ASPENK2_e.html}},
+	keywords = "deliverable"
+}
+
+@misc{SLFP,
+	title = "SLFP",
+	howpublished = {\url{http://www.aics.riken.jp/labs/lpnctrt/members/mukunoki/slfp-0.0.1.tgz}},
+	keywords = "deliverable"
+}
+
+@misc{FYI-HPCS2015,
+	author = "Takeshi Fukaya and Yusaku Yamamoto and Toshiyuki Imamura",
+	title = "Performance Perspectives of a Dense Eigenvalue Solver on pos-Petascale computers",
+	note = "Poster presentation at HPCS2015 (in Japanese)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{FI-EPASA2015,
+	author = "Takeshi Fukaya and Toshiyuki Imamura",
+	title = "Performance evaluation of the divide-and conquer method in the EigenExa eigensolver",
+	note = "Poster presentation at International Workshop on Eigenvalue Problems: Algorithms; Software and Applications, in Petascale Computing (EPASA2015)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{HI-EPASA2015,
+	author = "Yusuke Hirota and Toshiyuki Imamura",
+	title = "Performance of Divide-and-Conquer Method for Symmetric-Definite Generalized Eigenvalue Problems of Banded Matrices on Multicore and Manycore Systems",
+	note = "Poster presentation at International Workshop on Eigenvalue Problems: Algorithms; Software and Applications, in Petascale Computing (EPASA2015)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{MIT-GTCJAPAN2015,
+	author = "Daichi Mukunoki and Toshiyuki Imamura and Daisuke Takahashi",
+	title = "Implementation and Performance Evaluation of `MUBLAS', numerical linear algebra kernels facilitated with automatic selection mechanism of thread configuration on a GPU",
+	note = "Poster presentation at GTC Japan 2015 (in Japanese)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{OI-ITC25,
+	author = "Yoshiharu Ohi and Soichiro Ikuno",
+	title = "Stability analysis on nodes arrangement in Meshless Time-Domain Method",
+	note = "Poster presentaion at 25th International TOKI Conference (ITC25)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{OHKI-JSIAM2015,
+	author = "Yoshiharu Ohi and Yusuke Hirota and Daichi Mukunoki and Toshiyuki Imamura",
+	title = "Implementation of Numerical Software Framework, KMATHLLIB on K computer",
+	note = "Poster presentation at annual meeting of JSIAM 2015 (in Japanese)",
+	year = "2015",
+	keywords = "poster"
+}
+
+
+@misc{I-SIAMLA2015,
+	author = "Toshiyuki Imamura",
+	title = "Performance Analysis of the Householder Back-transformation with Asynchronous Collective Communication",
+	note = "Oral presentation at SIAM Conference on Applied Linear Algebra (SIAM LA15)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{HI-SIAMLA2015,
+	author = "Yusuke Hirota and Toshiyuki Imamura",
+	title = "Divide-and-Conquer Method for Symmetric-Definite Generalized Eigenvalue Problems of Banded Matrices on Manycore Systems",
+	note = "Oral presentation at SIAM Conference on Applied Linear Algebra (SIAM LA15)",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{I-JIFT2015,
+	author = "Toshiyuki Imamura",
+	title = "Numerical Libraries for post-Peta Scale Supercomputer Systems",
+	note = "Oral presentation at US-Japan Joint Institute for Fusion Theory (JIFT) Workshop on Innovations and co-designs of fusion simulations towards extreme scale computing",
+	year = "2015",
+	keywords = "poster"
+}
+
+@misc{SYMMI-JSIAM2015,
+	author = "Narimasa Sasa and Susumu Yamada and Masahiko Machida and Daichi Mukunoki and Toshiyuki Imamura",
+	title = "Accumulated numerical error on a time-evolutional PDE problem by using FFT",
+	note = "Oral presentation at annual meeting of JSIAM 2015 (in Japanese)",
+	year = "2015",
+	keywords = "poster"
 }

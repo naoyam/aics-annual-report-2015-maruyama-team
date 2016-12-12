@@ -14,6 +14,15 @@
 %\usepackage{layout}
 %\usepackage{showframe}
 \usepackage[a4paper,top=1in,bottom=1in,left=1.25in,right=1in, marginparwidth=0in]{geometry}
+\usepackage{multirow}
+\usepackage{comment}
+
+%%% for Japanese
+\usepackage{CJKutf8}
+\newcommand*{\Ja}[1]{%
+  \begin{CJK}{UTF8}{ipxm}#1\end{CJK}}
+%%%
+
 
 \title{ACIS Annual Report FY2015}
 
@@ -33,43 +42,43 @@
 \input{organization/organization}
 \addcontentsline{toc}{chapter}{Organization}
 
-\include{sample_division/sample_group/group}
+%\include{sample_division/sample_group/group}
 
 \part{Research Division}
 
 \include{research/preface}
-%\include{research/ishikawa/group}
-%\include{research/sato/group}
+\include{research/ishikawa/group}
+\include{research/sato/group}
 %\include{research/taiji/group}
-%\include{research/imamura/group}
-%\include{research/maeda/group}
-%\include{research/kuramashi/group}
-%\include{research/ito/group}
-%\include{research/nakajima/group}
-%\include{research/yunoki/group}
-%\include{research/sugita/group}
-%\include{research/makino/group}
-%\include{research/tomita/group}
-%\include{research/tsubokura/group}
+\include{research/imamura/group}
+\include{research/maeda/group}
+\include{research/kuramashi/group}
+\include{research/ito/group}
+\include{research/nakajima/group}
+\include{research/yunoki/group}
+\include{research/sugita/group}
+\include{research/makino/group}
+\include{research/tomita/group}
+\include{research/tsubokura/group}
 \include{research/maruyama/group}
-%\include{research/ono/group}
-%\include{research/miyoshi/group}
-%\include{research/hirao/group}
-%\include{research/hori/group}
-%\include{research/tama/group}
+\include{research/ono/group}
+\include{research/miyoshi/group}
+\include{research/hirao/group}
+\include{research/hori/group}
+\include{research/tama/group}
 
 \part{Operations and Computer Technologies Division}
 
 \include{operations/preface}
-%\include{operations/tsukamoto/group}
-%\include{operations/uno/group}
-%\include{operations/minami/group}
-%\include{operations/hirakawa/group}
+\include{operations/tsukamoto/group}
+\include{operations/uno/group}
+\include{operations/minami/group}
+\include{operations/hirakawa/group}
 
 \part{Flagship 2020 Project}
 
-\include{fs2020/preface}
-%\include{fs2020/ishikawa/group}
+%\include{fs2020/preface}
+\include{fs2020/ishikawa/group}
 %\include{fs2020/sato/group}
 %\include{fs2020/tomita/group}
 %\include{fs2020/makino/group}

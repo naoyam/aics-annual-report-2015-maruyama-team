@@ -31,9 +31,17 @@ Use latexmk to typeset the report in PDF.
 latexmk -pdf main
 ```
 
-On Mac/Linux, the typeset.sh shell script can also be used.
+On Mac/Linux, the typeset.sh shell script can also be used. A Makefile is also available.
 
 File main.pdf should be created upon successful typesetting.
+
+When it does not work, try cleaning up intermediate output files by:
+
+```
+latexmk -C main
+```
+
+and then rerun the typeset command.
 
 ### Per-group files
 Each group has its own sub directory. Edit and create files only under your directory and avoid editing files not in your directory.
